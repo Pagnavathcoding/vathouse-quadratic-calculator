@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./images/background.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.title {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.title h1{
+    color: #fff;
+    font-size: 25px;
+}
+.contents{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.calculate{
+    width: 400px;
+    background: #f6f9fc;
+    border-radius: 5px;
+    padding: 2em;
+}
+.form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.form h1{
+    font-size: 20px;
+    color: #4acb8a;
+}
+.form p{
+    font-size: 18px;
+}
+.input {
+    padding: 1em 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.input input{
+    width: 130px;
+    height: 40px;
+    border: none;
+    outline: none;
+    box-shadow: 0 2px 4px rgb(50 50 93 / 10%);
+    font-size: 16px;
+    padding: 0 0.5em;
+    margin: 0 0 0.5em 0;
+    border-radius: 5px;
+}
+.btn{
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.btn button{
+    width:100px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background: #4acb8a;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 0.5em;
+}
+#clear{
+    width: 70px;
+    height: 40px;
+    background: #f94348;
+}
+input:focus, button:focus{
+    border: 0.1em solid #555;
+}
+.err{
+    width: 400px;
+    height: 5vh;
+    background: #f94348;
+    border-radius: 5px;
+    margin-bottom: 0.5em;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 1em;
+    display: none;
+}
+.err p{
+    color: #fff;
+}
+.total{
+    width: 400px;
+    padding: 1em;
+    background: #f6f9fc;
+    border-radius: 5px;
+    margin-top: 0.5em;
+    display: none;
+}
+.total h1{
+    font-size: 20px;
+    color: #4acb8a;
+}
+.item{
+    display: flex;
+    align-items: center;
+}
+.item p{
+    padding: 0 0.5em;
+}

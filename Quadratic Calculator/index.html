@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VATHOUSE | Quadratic Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./images/logo.PNG">
+</head>
+
+<body>
+    <section class="container">
+        <div class="title">
+            <h1>Quadratic Calculator</h1>
+        </div>
+        <div class="contents">
+            <div class="err" id="err">
+                <p>Please input the value!</p>
+            </div>
+            <div class="calculate">
+                <div class="form">
+                    <h1>Quadratic Formular</h1>
+                    <p>ax<sup>2</sup> + bx + c = 0</p>
+                </div>
+                <div class="input">
+                    <div class="item">
+                        <p>a</p>
+                        <input type="number" id="a" placeholder="Input a value">
+                    </div>
+                    <div class="item">
+                        <p>b</p>
+                        <input type="number" id="b" placeholder="Input b value">
+                    </div>
+                    <div class="item">
+                        <p>c</p>
+                        <input type="number" id="c" placeholder="Input c value">
+                    </div>
+                </div>
+                <div class="btn">
+                    <button id="calculate-btn">Calculate</button>
+                    <button id="clear">Clear</button>
+                </div>
+            </div>
+            <div class="total" id="total">
+                <h1>Calculate</h1>
+                <p id="equation"></p>
+                <p id="delta"></p>
+                <p id="root"></p>
+            </div>
+        </div>
+    </section>
+    <script src="./script.js"></script>
+</body>
+
+</html>
